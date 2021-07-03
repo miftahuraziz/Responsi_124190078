@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+    <TextView
+        android:id="@+id/tv_hospital_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama RS"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat: "
+        android:layout_below="@+id/tv_hospital_name"/>
+
+    <TextView
+        android:id="@+id/tv_detail_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Address"
+        android:layout_below="@+id/tv_hospital_name"
+        android:layout_toEndOf="@+id/tv_address"/>
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="MAPS"
+        android:layout_below="@+id/tv_address"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@id/btn_maps"/>
+</RelativeLayout>

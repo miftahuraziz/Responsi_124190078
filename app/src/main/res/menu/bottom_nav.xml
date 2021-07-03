@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_nav_kasus_covid"
+        android:title="Kasus Covid"
+        android:icon="@drawable/list"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottom_nav_rumahsakit"
+        android:title="RS Rujukan Covid"
+        android:icon="@drawable/hospital"
+        app:showAsAction="ifRoom" />
+</menu>
